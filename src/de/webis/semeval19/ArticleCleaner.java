@@ -120,7 +120,8 @@ public class ArticleCleaner {
     if (hrefHost.endsWith(host)) {
       element.setAttribute("type", "internal");
     } else {
-      element.setAttribute("href", href);
+      element.setAttribute("href",
+          href.replaceAll("%%", "%").replaceAll("%$", ""));
       element.setAttribute("type", "external");
     }
   }
