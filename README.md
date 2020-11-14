@@ -1,4 +1,4 @@
-SEMEVAL 2019 HYPERPARTISAN NEWS DETECTION ARTICLE CLEANER
+SEMEVAL 2019 Hyperpartisan News Detection Article Cleaner
 =========================================================
 
     mvn package
